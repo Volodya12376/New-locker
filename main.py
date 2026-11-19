@@ -19,6 +19,7 @@ password = "1234"
 path = sys.argv[0]
 file_name = path.split('\\')[-1]
 
+
 root = tk.Tk()
 root.title("DECRYPTOR")
 root.configure(bg=RED)
@@ -166,7 +167,14 @@ timer_frame = tk.Frame(
     highlightbackground=WHITE,
     highlightthickness=3
 )
-timer_frame.place(x=30, y=180, width=175, height=175)
+timer_frame.place(x=20, y=210, width=215, height=175)
+
+timer2_frame = tk.Frame(
+    bg=RED,
+    highlightbackground=WHITE,
+    highlightthickness=3
+)
+timer2_frame.place(x=20, y=410, width=215, height=175)
 
 button = tk.Button(
     text="DECRYPT",
